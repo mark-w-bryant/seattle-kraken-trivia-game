@@ -1,0 +1,25 @@
+body {
+    background-color: #001628;
+    /* display: grid;
+    place-content: center; */
+}
+
+.container {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;    
+    margin: auto;
+    /* margin: 3.13rem auto; */
+    max-width: 58rem;
+    max-height: 24rem;
+    background-color: #F1F1E6;
+    border: 5px solid #e9072b;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px 5px #355464;
+}
+
+.center {
+  text-align: center;
+}
