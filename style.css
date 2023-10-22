@@ -1,25 +1,86 @@
+/* General */
+
 body {
     background-color: #001628;
-    /* display: grid;
-    place-content: center; */
+    justify-content: center;
 }
 
-.container {
+/* Layout */
+
+.answer {
+  background-color: #99D9D9;
+  border-radius: 25px;
+  display: none;
+  font-weight: bold;
+  margin: 0.25rem;
+  padding: 0.5rem;
+  width: 9rem;
+}
+
+.answers {
+  display: block;
+}
+
+.center {
+  text-align: center;
+}
+
+.feedback {
+  border-radius: 25px;
+  display: none;
+}
+
+.flex-container {
     position: absolute;
     top:0;
     bottom: 0;
     left: 0;
     right: 0;    
     margin: auto;
-    /* margin: 3.13rem auto; */
-    max-width: 58rem;
-    max-height: 24rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 70vh;
+    width: 60vw;
     background-color: #FFFEFC;
     border: 5px solid #e9072b;
     border-radius: 25px;
     box-shadow: 5px 5px 15px 5px #355464;
+    padding: 2rem;
 }
 
-.center {
-  text-align: center;
+.next-question {
+  background-color: #99D9D9;
+  border-radius: 25px;
+  display: none;
+  font-weight: bold;
+  margin: 0.25rem;
+  padding: 0.5rem;
+  width: 9rem;
+}
+
+.start-btn {
+  background-color: #99D9D9;
+  border: 1px solid #001628;
+  border-radius: 12px;
+  font-weight: bold;
+  margin: 0.25rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 9rem;
+}
+
+.question {
+  display: none;
+}
+
+/* Other Styling */
+
+.wrong-answer {
+  background-color: #f4cfda
+}
+
+.right-answer {
+  background-color: #CFF4E9;
 }

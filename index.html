@@ -3,171 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="keywords" content="seattle, kraken, hockey, trivia, challenge, game"> 
+    <meta name="description" content="Play a Seattle Kraken trivia game created by Mark Bryant">
+    <meta name="author" content="Mark Bryant" >
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <main class= "container" id= "container">
-        <!-- Opening screen with title, message, start game button -->
-        <section class= "intro" id= "intro">
-            <div>
-                <h1 class="center">Seattle Kraken Hockey Trivia Challenge</h1>
-                <h2 class="center">Think you know Kraken hockey? Take the challenge to find out</h2>    
+
+    <main class= "flex-container" id= "container">
+        
+        <!-- Initial elements on screen at start of game -->
+        <section class= "introduction" id= "game-start">
+            <div class= "center">
+                <h1 class= "title">Seattle Kraken Trivia Challenge</h1>
+                <h2 class= "intro" id="intro-text">How well do you know Kraken hockey?</h2>
+                <button class= "start-btn" id="start-btn">Start Challenge</button>    
             </div>
-            <button class="start-btn" id="start-btn">Start Challenge</button>
-        </section>
-        <!-- First Question screen -->
-        <section class= "question q1" id="q1">
-            <!-- Div that will display question text -->
-            <div class= "question-text">Question 1</div>
-            <!-- Div that will display buttons of possible answers -->
-            <div class= "answers">
-                <!-- Answer 1 -->
-                <button class= "answer" id= "q1-a1">
-                    <div id= "select-indicator"></div>
-                    <div class= "answer-text" id= "answer-text"></div>
-                </button>
-                <!-- Answer 2 -->
-                <button class= "answer" id= "q1-a2">
-                    <div id= "select-indicator"></div>
-                    <div class= "answer-text" id= "answer-text"></div>
-                </button>
-                <!-- Answer 3 -->
-                <button class= "answer" id= "q1-a3">
-                    <div id= "select-indicator"></div>
-                    <div class= "answer-text" id= "answer-text"></div>
-                </button>
-                <!-- Answer 4 -->
-                <button class= "answer" id= "q1-a4">
-                    <div id= "select-indicator"></div>
-                    <div class= "answer-text" id= "answer-text"></div>
-                </button>
-            </div>
-            <button class= "next-question" id= "q1-next-question"></button>
-        </section>
-        <!-- Second Question screen -->
-        <section class= "question q2" id="q2">
-            <!-- Div that will display question text -->
-            <div class= "question-text">Question 2</div>
-            <!-- Div that will display buttons of possible answers -->
-            <div class= "answers">
-                <!-- Answer 1 -->
-                <button class= "answer" id= "q2-a1">
-                    <div id= "select-indicator"></div>
-                    <div class= "answer-text" id= "answer-text"></div>
-                </button>
-                <!-- Answer 2 -->
-                <button class= "answer" id= "q2-a2">
-                    <div id= "select-indicator"></div>
-                    <div class= "answer-text" id= "answer-text"></div>
-                </button>
-                <!-- Answer 3 -->
-                <button class= "answer" id= "q2-a3">
-                    <div id= "select-indicator"></div>
-                    <div class= "answer-text" id= "answer-text"></div>
-                </button>
-                <!-- Answer 4 -->
-                <button class= "answer" id= "q2-a4">
-                    <div id= "select-indicator"></div>
-                    <div class= "answer-text" id= "answer-text"></div>
-                </button>
-            </div>
-            <button class= "next-question" id= "q2-next-question"></button>
         </section>
 
-        <!-- Third Question screen -->
-        <section class= "question q3" id="q3">
-            <!-- Div that will display question text -->
-            <div class= "question-text">Question 3</div>
-            <!-- Div that will display buttons of possible answers -->
-            <div class= "answers">
-                <!-- Answer 1 -->
-                <button class= "answer" id= "q3-a1">
-                    <div id= "select-indicator"></div>
-                    <div class= "answer-text" id= "answer-text"></div>
-                </button>
-                <!-- Answer 2 -->
-                <button class= "answer" id= "q3-a2">
-                    <div id= "select-indicator"></div>
-                    <div class= "answer-text" id= "answer-text"></div>
-                </button>
-                <!-- Answer 3 -->
-                <button class= "answer" id= "q3-a3">
-                    <div id= "select-indicator"></div>
-                    <div class= "answer-text" id= "answer-text"></div>
-                </button>
-                <!-- Answer 4 -->
-                <button class= "answer" id= "q3-a4">
-                    <div id= "select-indicator"></div>
-                    <div class= "answer-text" id= "answer-text"></div>
-                </button>
+        <!-- Displays the question each round  -->
+        <section>
+            <div class= "center">
+                <h2 class= "question" id="q-text"></h2>
             </div>
-            <button class= "next-question" id= "q3-next-question"></button>
         </section>
-
-        <!-- Fourth Question screen -->
-        <section class= "question q4" id="q4">
-            <!-- Div that will display question text -->
-            <div class= "question-text">Question 4</div>
-            <!-- Div that will display buttons of possible answers -->
-            <div class= "answers">
-                <!-- Answer 1 -->
-                <button class= "answer" id= "q4-a1">
-                    <div id= "select-indicator"></div>
-                    <div class= "answer-text" id= "answer-text"></div>
-                </button>
-                <!-- Answer 2 -->
-                <button class= "answer" id= "q4-a2">
-                    <div id= "select-indicator"></div>
-                    <div class= "answer-text" id= "answer-text"></div>
-                </button>
-                <!-- Answer 3 -->
-                <button class= "answer" id= "q4-a3">
-                    <div id= "select-indicator"></div>
-                    <div class= "answer-text" id= "answer-text"></div>
-                </button>
-                <!-- Answer 4 -->
-                <button class= "answer" id= "q4-a4">
-                    <div id= "select-indicator"></div>
-                    <div class= "answer-text" id= "answer-text"></div>
-                </button>
+        
+        <!-- Dispaly each potential to question as a button -->
+        <section class= "answer-btns">
+            <div class="answers center">
+                <div>
+                    <button class= "answer" id= "a1"></button>
+                </div>
+                <div>
+                    <button class= "answer" id= "a2"></button>    
+                </div>
+                <div>
+                    <button class= "answer" id= "a3"></button>    
+                </div>
+                <div>
+                    <button class= "answer" id= "a4"></button>    
+                </div>
             </div>
-            <button class= "next-question" id= "q4-next-question"></button>
-        </section>
-
-        <!-- Fifth Question screen -->
-        <section class= "question q5" id="q5">
-            <!-- Div that will display question text -->
-            <div class= "question-text">Question 5</div>
-            <!-- Div that will display buttons of possible answers -->
-            <div class= "answers">
-                <!-- Answer 1 -->
-                <button class= "answer" id= "q5-a1">
-                    <div id= "select-indicator"></div>
-                    <div class= "answer-text" id= "answer-text"></div>
-                </button>
-                <!-- Answer 2 -->
-                <button class= "answer" id= "q5-a2">
-                    <div id= "select-indicator"></div>
-                    <div class= "answer-text" id= "answer-text"></div>
-                </button>
-                <!-- Answer 3 -->
-                <button class= "answer" id= "q5-a3">
-                    <div id= "select-indicator"></div>
-                    <div class= "answer-text" id= "answer-text"></div>
-                </button>
-                <!-- Answer 4 -->
-                <button class= "answer" id= "q5-a4">
-                    <div id= "select-indicator"></div>
-                    <div class= "answer-text" id= "answer-text"></div>
-                </button>
+               
+            <!-- Dislpay the correct answer and score at end of game -->
+            <div class= "center">
+                <h2 class= "feedback"></h2>
+                <button class= "next-question center" id= "q1-next-question">Next Question</button>
             </div>
-            <button class= "next-question" id= "q5-next-question"></button>
         </section>
+        
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+    <script type= "module" src= "./script.js"></script>    
 
-        <!-- End screen showing results -->
-        <section class= "end"></section>
-    </main>
-    <script type= "module" src= "./main.js"></script>    
 </body>
 </html>

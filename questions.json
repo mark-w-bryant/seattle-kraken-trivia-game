@@ -8,18 +8,20 @@
       "Yanni Gourde",
       "Morgan Geekie"  
     ],
-    "correctAnswer": "Ryan Donato"
+    "correctAnswer": "Ryan Donato",
+    "video": "https://youtu.be/90_CuGJzE0k?si=4C9Ard06i6eNI-XY"
   },
   "q2": {
     "id": "q2",
-    "question": "Introduced prior to the 2nd season in team, who is the Kraken's mascot?",
+    "question": "Introduced prior to the 2nd season, who is the Kraken's mascot?",
     "answers": [
       "Rainy the Orca",
       "Slapshot the Squid",
       "Buoy the Sea-troll",
       "Steve the Pirate"  
     ],
-    "correctAnswer": "Buoy the Sea-troll"
+    "correctAnswer": "Buoy the Sea-troll",
+    "video": "https://youtu.be/NuepkJT0EfY?si=yItX9pMQ58E6jxPb"
   },
   "q3": {
     "id": "q3",
@@ -30,7 +32,8 @@
       "Gordon Bombay",
       "Jack Adams"  
     ],
-    "correctAnswer": "Dave Hakstol"
+    "correctAnswer": "Dave Hakstol",
+    "video": "https://youtu.be/R5trrbYAKIk?si=iXVsGm2--zHhbqS4"
   },
   "q4": {
     "id": "q4",
@@ -41,17 +44,19 @@
       "Vince Dunn",
       "Jared McCann"  
     ],
-    "correctAnswer": "Jordan Eberle"
+    "correctAnswer": "Jordan Eberle",
+    "video": "https://youtu.be/4qfj9xnjgac?si=ZafX1kL5mJLWKbH_"
   },
   "q5": {
     "id": "q5",
-    "question": "Who was the first player to win the Calder Memorial Trophy (Rookie of the year) in Kraken history?",
+    "question": "Who was the first Calder Memorial Trophy recipient in Kraken history?",
     "answers": [
       "Ty Kartye",
       "Shane Wright",
       "Ryker Evans",
       "Matty Beniers"  
     ],
-    "correctAnswer": "Matty Beniers"
+    "correctAnswer": "Matty Beniers",
+    "video": "https://youtu.be/eZSIvMp7kXI?si=lilCm4EI2EHp-0vl"
   } 
 }
